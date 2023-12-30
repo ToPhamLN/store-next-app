@@ -1,0 +1,75 @@
+@import url("https://cdn.jsdelivr.net/gh/jgthms/minireset.css@master/minireset.min.css");
+
+:root {
+    --text: #94a3b8;
+    --color-danger: #FF0060;
+    --color-success: #1B9C85;
+    --color-warning: #F7D060;
+
+    --bg-box: #EBF4FF;
+    --card-border-radius: 2rem;
+    --border-radius-1: 0.4rem;
+    --border-radius-2: 1.2rem;
+
+    --card-padding: 1.8rem;
+    --padding-1: 1.2rem;
+
+    --box-shadow: 0 2rem 3rem #848bc82e;
+    ;
+}
+
+.light__theme {
+    --bg-main: #F8FAFC;
+    --text-color: #0f172a;
+    --bg-btn: #0ea5e9;
+}
+
+.dark__theme {
+    --bg-main: #0B1120;
+    --text-color: #FFFFFF;
+    --bg-btn: #0F172A;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    place-items: center;
+    background-color: var(--bg-main);
+    color: var(--text-color);
+}
+
+a {
+    text-decoration: none;
+    color: #0ea5e9
+}
+
+li {
+    list-style: none;
+}
+
+button {
+    background-color: var(--bg-btn);
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 1.8rem;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+
+h3 {
+    font-weight: 500;
+    font-size: 0.87rem;
+}
+
+small {
+    font-size: 0.76rem;
+}
